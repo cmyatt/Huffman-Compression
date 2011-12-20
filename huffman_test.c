@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
     byte_buffer *b;
     long raw_size;
 
-    // Assumes input file resides in directory 'data'
+    // Assumes input file resides in directory './data'
     filename = (char *) malloc(strlen(argv[1]) + 6);
     memset(filename, 0, strlen(argv[1]) + 6);
     strcat(filename, "data/");
@@ -27,7 +27,7 @@ int main(int argc, char *argv[]) {
     raw_size = raw->size;
     free_file(raw);
 
-    // Save file in directory 'data/output'
+    // Save file in directory './data/output'
     free(filename);
     filename = (char *) malloc(strlen(argv[1]) + 13);
     memset(filename, 0, strlen(argv[1]) + 13);
