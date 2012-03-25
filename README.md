@@ -1,5 +1,5 @@
 #About
-Simple implementation of the <a href="en.wikipedia.org/wiki/Huffman_coding">Huffman algorithm</a> for the purpose of developing my C skills.
+Simple implementation of the <a href="http://en.wikipedia.org/wiki/Huffman_coding">Huffman algorithm</a> for the purpose of developing my C skills.
 
 
 #Implementation details
