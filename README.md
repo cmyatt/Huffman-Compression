@@ -1,5 +1,6 @@
 #About
 Simple implementation of the <a href="http://en.wikipedia.org/wiki/Huffman_coding">Huffman algorithm</a> for the purpose of developing my C skills.
+Also implemented <a href="http://en.wikipedia.org/wiki/Run-Length_encoding">run-length encoding</a> to see how quickly the existing code would enable me to get something that works. Pleasingly, not that long at all (no more than an hour).
 
 
 #Implementation details
